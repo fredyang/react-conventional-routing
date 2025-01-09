@@ -4,8 +4,9 @@ import { ComponentList } from './ComponentList';
 
 
 export function App() {
+  const basename = window.location.pathname.split('/')[1];
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/${basename}`}>
       <Routes>
         <Route path="demo/:componentName" element={<ComponentAtPath prefix='./demo' />} />
         <Route path="404" element={<h1>Page Not Found</h1>} />
