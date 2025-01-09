@@ -17,7 +17,7 @@ export const ComponentList = () => {
           const [componentName, description] = item.split(',');
           return (
             <li key={componentName}>
-              <Link to={`/demo/${componentName}`}>{description || componentName}</Link>
+              <Link to={`demo/${componentName}`}>{description || componentName}</Link>
             </li>
           );
         })}

@@ -21,7 +21,7 @@ export default defineConfig({
   //  plugins: [ nxViteTsPaths() ],
   // },
   build: {
-    outDir: './dist/react-conventional-routing',
+    outDir: './docs',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
