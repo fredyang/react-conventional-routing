@@ -24,6 +24,7 @@ export default defineConfig({
     outDir: './docs',
     emptyOutDir: true,
     reportCompressedSize: true,
+    sourcemap: true,
     commonjsOptions: {
       transformMixedEsModules: true,
     },
