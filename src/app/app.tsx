@@ -1,12 +1,17 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ComponentAtPath } from './ComponentAtPath';
+import { ComponentList } from './ComponentList';
+
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="react-conventional-routing" />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/demo/:componentName" element={<ComponentAtPath prefix='./demo' />} />
+        <Route path="/404" element={<h1>Page Not Found</h1>} />
+        <Route path="/" element={<ComponentList />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
