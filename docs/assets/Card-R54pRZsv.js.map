@@ -1,0 +1,1 @@
+{"version":3,"file":"Card-R54pRZsv.js","sources":["../../src/app/demo/Card.tsx"],"sourcesContent":["\n\nexport default function Card() {\n  return (\n    <div>\n      <h1>Card</h1>\n    </div>\n  );\n}"],"names":["Card","jsx"],"mappings":"wCAEA,SAAwBA,GAAO,CAC7B,OACGC,EAAA,IAAA,MAAA,CACC,SAACA,EAAAA,IAAA,KAAA,CAAG,eAAI,CAAA,EACV,CAEJ"}

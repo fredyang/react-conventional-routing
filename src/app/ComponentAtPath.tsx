@@ -4,11 +4,11 @@ import { useParams, Navigate } from 'react-router-dom';
 // Define a static glob pattern to match all components
 const componentFiles = import.meta.glob(`./demo/*.tsx`);
 
-export const ComponentAtPath = ({ prefix }: { prefix: string }) => {
+export const ComponentAtPath = () => {
   const { componentName } = useParams();
 
   // Dynamically select the component based on componentName
-  const componentPath = `${prefix}/${componentName}.tsx`;
+  const componentPath = `./demo/${componentName}.tsx`;
 
   // Check if the component is available in the glob mapping
   const Component = lazy(() => {

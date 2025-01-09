@@ -8,7 +8,7 @@ export function App() {
   return (
     <BrowserRouter basename={`/${basename}`}>
       <Routes>
-        <Route path="demo/:componentName" element={<ComponentAtPath prefix='./demo' />} />
+        <Route path="demo/:componentName" element={<ComponentAtPath />} />
         <Route path="404" element={<h1>Page Not Found</h1>} />
         <Route path="" element={<ComponentList />} />
       </Routes>
