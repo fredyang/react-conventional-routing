@@ -1,1 +1,0 @@
-{"version":3,"file":"Button-W8V1tcaw.js","sources":["../../src/app/demo/Button.tsx"],"sourcesContent":["\nexport default function Button() {\n  return <button>Click me</button>;\n}"],"names":["Button","jsx"],"mappings":"wCACA,SAAwBA,GAAS,CACxB,OAAAC,EAAA,IAAC,UAAO,SAAQ,UAAA,CAAA,CACzB"}
